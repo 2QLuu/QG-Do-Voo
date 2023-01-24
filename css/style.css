@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
 
 body {
-
+	font-family: 'Quicksand', sans-serif;
 	margin: 0;
-	background-color: #f1e5d8;
+	background-color: #f7eee4;
 }
 
 #home {
@@ -12,27 +14,32 @@ body {
 	height: 800px;
 	background-repeat: no-repeat;
   	background-position: center 25% ;
-	position: absolute;
-
+	
+	
 }
-
-.active  {
-    border-bottom: 1px solid #3a3a3a;
+nav > a {
+	margin: 1rem;
 }
 
 #menu {
-    font-size: 110%;
-    letter-spacing: 4px;
+    font-size: 150%;
+    letter-spacing: 3px;
+	color: white;
+	text-align: center;
+	background-color: rgb(18, 18, 68);
+	height: 38px;
+	
 }
 
-#menu li {
-    float: right;
-    margin-right: 30px;
-    list-style-type: none;
-}
 #menu  a {
     text-decoration: none;
     color: inherit;
+}
+
+#menu a:hover {
+	color: silver;
+	border-bottom: 1px solid silver;
+
 }
 
 #logo {
@@ -42,3 +49,12 @@ body {
 	opacity: 0.8;
 }
 
+#wellcome {
+    text-align: center;
+    margin:  20px 0;
+    font-size: 280%;
+}
+
+#main {
+	height: 600px;
+}
