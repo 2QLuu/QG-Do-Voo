@@ -4,7 +4,7 @@
 body {
 	font-family: 'Quicksand', sans-serif;
 	margin: 0;
-	background-color: #f7eee4;
+	background-color: #ffffff;
 }
 
 #home {
@@ -24,9 +24,9 @@ nav > a {
 #menu {
     font-size: 150%;
     letter-spacing: 3px;
-	color: white;
+	color: #3a3a3a ;
 	text-align: center;
-	background-color: rgb(18, 18, 68);
+	background-color: rgb(255, 255, 255);
 	height: 38px;
 	
 }
@@ -49,12 +49,54 @@ nav > a {
 	opacity: 0.8;
 }
 
-#wellcome {
-    text-align: center;
-    margin:  20px 0;
-    font-size: 280%;
-}
 
 #main {
 	height: 600px;
+}
+
+#slogan {
+	text-align: center;
+	font-size: 280%;
+	color: #3a3a3a ;
+	margin: 60px 0;
+}
+
+.line {
+    width: 10%; 
+    height: 2px; 
+    background-color: rgb(74, 160, 172); 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+	margin-left: 45%;
+	margin-right: 45%;
+}
+
+
+#information-mantel {
+	height: 450px;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+#location {
+	width: 33%;
+	height: 450px; 
+
+
+}
+
+
+#left-side {
+	width: 33%;
+	float: left;
+
+}
+
+
+.left-information {
+	float: right;
+	margin-top: 10%;
+	margin-right: 8%;
+	
+
 }
