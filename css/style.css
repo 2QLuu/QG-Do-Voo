@@ -84,19 +84,33 @@ nav > a {
 
 
 }
-
-
 #left-side {
-	width: 33%;
-	float: left;
-
+    width: 30%;
+    float: left;
+    padding: 20px;
+    text-align: right;
 }
 
-
 .left-information {
-	float: right;
-	margin-top: 10%;
-	margin-right: 8%;
-	
+    padding: 10px;
+    margin-bottom: 20px;
+}
 
+.left-information h3 {
+    margin-bottom: 10px;
+}
+
+.left-information2 {
+    padding: 10px;
+}
+
+#right-side {
+    width: 33%;
+    float: right;
+    padding: 30px;
+    text-align: left;
+}
+
+.right-information {
+	padding: 10px;
 }
