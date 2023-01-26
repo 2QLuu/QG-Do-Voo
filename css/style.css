@@ -88,7 +88,7 @@ nav > a {
 }
 
 #left-picture {
-    width: 41%;
+    width: 44.7%;
     float: left;
 	height: 100%;
 	position: relative;
@@ -107,11 +107,16 @@ nav > a {
 	max-width: 100%;
     max-height: 100%;
 	float: right;
+	
 }
 
 #clouds {
 	max-width: 100%;
     max-height: 100%;
+	position: absolute;
+  	left: 0;
+	object-fit: cover;
+
 }
 
 #take-off {
@@ -134,8 +139,9 @@ nav > a {
 	background-color: rgba(255, 255, 255, 0.1); 
 	transition: background-color 0.1s ease; 
 	margin-bottom: 45px;
-	right: 23%;
+	right: 17%;
 	top: 80%;
+	
 }
   
 #lessions-button{
@@ -148,7 +154,7 @@ nav > a {
 	position: absolute; 
 	bottom: 10px; 
 	top: 80%;
-    left: 50%;
+    left: 60%;
     transform: translate(-50%, -50%);
 	background-color: rgba(255, 255, 255, 0.1); 
 	transition: background-color 0.1s ease; 
@@ -164,12 +170,14 @@ nav > a {
 	border-color: #ffffff;
 	border: 1px solid;
 	position: absolute; 
-	transform: translateX(-50%); 
 	background-color: rgba(255, 255, 255, 0.1); 
 	transition: background-color 0.1s ease; 
 	margin-bottom: 45px;
-	top: 70%;
-	left: 24%;
+	top: 80%;
+	left: 18%;
+	transform: translate(-50%,-50%);
+
+
 }
 
 
