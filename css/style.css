@@ -71,24 +71,102 @@ nav > a {
 	margin-right: 45%;
 }
 
+/* img link section */
+
+#picture-links {
+	height: 250px;
+	margin-bottom: 50px;
+}
+
+#center-picture {
+    width: 17%;
+    margin: 0 auto;
+	height: 100%;
+	text-align: right;
+	
+}
+
+#left-picture {
+    width: 41%;
+    float: left;
+	height: 100%;
+	position: relative;
+	
+}
+
+
+#right-picture { 
+    width: 41%;
+    float: right;
+	height: 100%;
+}
+
+#mist {
+	max-width: 100%;
+    max-height: 100%;
+	float: right;
+}
+
+#clouds {
+	max-width: 100%;
+    max-height: 100%;
+}
+
+#take-off {
+	max-width: 100%;
+    max-height: 100%;
+	display: block;
+    float: right;
+}
+
+
+#sign-up-button {
+	width: 100px;
+	height: 40px;
+	font-size: 18px;
+	color: #ffffff;
+	border-color: #ffffff;
+	border: 1px solid;
+	position: absolute; 
+	bottom: 10px; 
+	left: 50%; 
+	transform: translateX(-50%); 
+	background-color: rgba(255, 255, 255, 0); 
+	transition: background-color 0.1s ease; 
+	margin-bottom: 45px;
+}
+  
+#sign-up-button:hover {
+	background-color: rgba(59, 59, 59, 0.1); 
+}
+
+
+
+
+
+
+/* Information and Location section */	
+
 
 #information-mantel {
 	height: 450px;
-	width: 100%;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
+	
 }
 
 #location {
 	width: 33%;
 	height: 450px; 
+	margin: 0 auto;
 
 
 }
 #left-side {
-    width: 30%;
+    padding-top: 30px;
+    width: 33%;
     float: left;
-    padding: 20px;
-    text-align: right;
+	text-align: right;
+	
 }
 
 .left-information {
@@ -104,11 +182,13 @@ nav > a {
     padding: 10px;
 }
 
-#right-side {
+#right-side { 
+    padding-top: 30px;
     width: 33%;
     float: right;
-    padding: 30px;
-    text-align: left;
+	text-align: left;
+
+    
 }
 
 .right-information {
