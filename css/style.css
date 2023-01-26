@@ -83,6 +83,7 @@ nav > a {
     margin: 0 auto;
 	height: 100%;
 	text-align: right;
+	position: relative;
 	
 }
 
@@ -99,6 +100,7 @@ nav > a {
     width: 41%;
     float: right;
 	height: 100%;
+	position: relative;
 }
 
 #mist {
@@ -119,7 +121,6 @@ nav > a {
     float: right;
 }
 
-
 #sign-up-button {
 	width: 100px;
 	height: 40px;
@@ -130,16 +131,65 @@ nav > a {
 	position: absolute; 
 	bottom: 10px; 
 	transform: translateY(-50%); 
-	background-color: rgba(255, 255, 255, 0); 
+	background-color: rgba(255, 255, 255, 0.1); 
 	transition: background-color 0.1s ease; 
 	margin-bottom: 45px;
 	right: 23%;
 	top: 80%;
 }
   
-#sign-up-button:hover {
-	background-color: rgba(59, 59, 59, 0.1); 
+#lessions-button{
+	width: 140px;
+	height: 40px;
+	font-size: 18px;
+	color: #ffffff;
+	border-color: #ffffff;
+	border: 1px solid;
+	position: absolute; 
+	bottom: 10px; 
+	top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	background-color: rgba(255, 255, 255, 0.1); 
+	transition: background-color 0.1s ease; 
+	margin-bottom: 45px;
+	
 }
+
+#store-button {
+	width: 100px;
+	height: 40px;
+	font-size: 18px;
+	color: #ffffff;
+	border-color: #ffffff;
+	border: 1px solid;
+	position: absolute; 
+	transform: translateX(-50%); 
+	background-color: rgba(255, 255, 255, 0.1); 
+	transition: background-color 0.1s ease; 
+	margin-bottom: 45px;
+	top: 70%;
+	left: 24%;
+}
+
+
+#sign-up-button:hover {
+	background-color: rgba(59, 59, 59, 0.2); 
+}
+
+#lessions-button:hover {
+	background-color: rgba(59, 59, 59, 0.2); 
+}
+
+#store-button:hover {
+	background-color: rgba(59, 59, 59, 0.2); 
+}
+
+
+
+
+
+
 
 
 
