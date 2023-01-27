@@ -81,7 +81,7 @@ nav > a {
 }
 
 #center-picture {
-    width: 33%;
+    max-width: 33%;
 	height: 100%;
 	position: relative;
 	justify-content: center;
@@ -90,7 +90,7 @@ nav > a {
 }
 
 #left-picture {
-    width: 33%;
+    max-width: 33%;
 	height: 100%;
 	position: relative;
 	display: flex;
@@ -100,7 +100,7 @@ nav > a {
 
 
 #right-picture { 
-    width: 33%;
+    max-width: 33%;
 	height: 100%;
 	position: relative;
 	display: flex;
@@ -140,7 +140,7 @@ nav > a {
 	background-color: rgba(255, 255, 255, 0.1); 
 	transition: background-color 0.1s ease; 
 	margin-bottom: 45px;
-	right: 17%;
+	right: 40%;
 	top: 80%;
 	
 }
@@ -155,7 +155,7 @@ nav > a {
 	position: absolute; 
 	bottom: 10px; 
 	top: 80%;
-    left: 60%;
+    left: 50%;
     transform: translate(-50%, -50%);
 	background-color: rgba(255, 255, 255, 0.1); 
 	transition: background-color 0.1s ease; 
@@ -175,7 +175,7 @@ nav > a {
 	transition: background-color 0.1s ease; 
 	margin-bottom: 45px;
 	top: 80%;
-	left: 18%;
+	left: 50%;
 	transform: translate(-50%,-50%);
 
 
