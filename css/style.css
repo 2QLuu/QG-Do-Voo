@@ -76,20 +76,21 @@ nav > a {
 #picture-links {
 	height: 250px;
 	margin-bottom: 50px;
+	display: flex;
+	justify-content: center;
 }
 
 #center-picture {
-    width: 17%;
+    width: 33%;
     margin: 0 auto;
 	height: 100%;
-	text-align: right;
 	position: relative;
+	justify-content: center;
 	
 }
 
 #left-picture {
-    width: 44.7%;
-    float: left;
+    width: 33%;
 	height: 100%;
 	position: relative;
 	
@@ -97,8 +98,7 @@ nav > a {
 
 
 #right-picture { 
-    width: 41%;
-    float: right;
+    width: 33%;
 	height: 100%;
 	position: relative;
 }
