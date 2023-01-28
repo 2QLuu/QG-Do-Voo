@@ -15,9 +15,8 @@ body {
 	height: 800px;
 	background-repeat: no-repeat;
   	background-position: center 25% ;
-	
-	
 }
+
 nav > a {
 	margin: 1rem;
 }
@@ -97,8 +96,6 @@ nav > a {
 	height: 100%;
 	position: relative;
 	display: flex;
-	
-	
 }
 
 
@@ -113,14 +110,12 @@ nav > a {
 	max-width: 100%;
     max-height: 100%;
 	display: flex;
-	
 }
 
 #clouds {
 	max-width: 100%;
     max-height: 100%;
 	display: flex;
-
 }
 
 #take-off {
@@ -136,7 +131,6 @@ nav > a {
 	color: #ffffff;
 	right: 35%;
 	top: 15%;
-
 }
 
 #about-us-text {
@@ -146,7 +140,6 @@ nav > a {
 	color: #ffffff;
 	right: 25%;
 	top: 15%;
-
 }
 
 #store-text {
@@ -157,8 +150,6 @@ nav > a {
 	right: 37%;
 	top: 15%;
 }
-
-
 
 
 #sign-up-button {
@@ -179,8 +170,6 @@ nav > a {
 	text-align: center;
 	text-decoration: none;
 	font-family: 'Kanit', sans-serif;
-
-	
 }
   
 #lessions-button{
@@ -220,7 +209,6 @@ nav > a {
 	text-align: center;
 	text-decoration: none;
 	font-family: 'Kanit', sans-serif;
-
 }
 
 
@@ -235,16 +223,6 @@ nav > a {
 #store-button:hover {
 	background-color: rgba(59, 59, 59, 0.2); 
 }
-
-
-
-
-
-
-
-
-
-
 
 
 /* Information and Location section */	
@@ -296,3 +274,8 @@ nav > a {
 .right-information {
 	padding: 10px;
 }
+
+
+
+
+
