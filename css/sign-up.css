@@ -7,7 +7,9 @@ body {
 	margin: 0;
 	background-image: url(../css/images/pexels-stanislav-kondratiev-3342676.jpg);
 	background-size: cover;
-	
+ 	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-position: center;
 }
 
 #menu2 {
@@ -39,7 +41,7 @@ body {
 h1 {
 	text-align: center;
 	position: absolute;
-		top: 33%;
+		top: 30%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		color: silver;
