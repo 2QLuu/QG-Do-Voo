@@ -47,7 +47,7 @@ h2 {
 }
 
 ul {
-	
+	list-style: none;
 	text-align: center;
 	padding: 1px;
 	font-size: 28px;
@@ -59,7 +59,7 @@ ul {
 
 
 
-@media screen and (max-width: 950px)  {
+@media screen and (max-width: 412px)  {
 
     #menu3 {
 		height: 70px;
