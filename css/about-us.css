@@ -58,7 +58,25 @@ ul {
 }
 
 
+@media screen and (max-width: 950px)  {
 
+    #menu3 {
+		height: 70px;
+		width: 150px;
+		margin: 0 auto;
+		margin-top: 4%;
+    	
+	}
+
+    #introduction, #bullet-points {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 18px;
+    }
+
+    
+
+}
 
 
 
