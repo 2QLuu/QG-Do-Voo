@@ -89,7 +89,8 @@ Here are the main features and sections of my website
 <br>
 
 ## Testing 
-    - While coding the website i originally had no problems and everything went smooth untill i started to change the size of my window and everything would instantly fall apart since ive used a lot of float commands so i tested around a lot and tried to do all the layouts without any float commands wich resolved the layout issues.
+    - While coding the website i originally had no problems and everything went smooth untill i started to change the size of my window and everything would instantly 
+      fall apart since ive used a lot of float commands so i tested around a lot and tried to do all the layouts without any float commands wich resolved the layout issues.
 
 
 ## Validator Testing
@@ -97,4 +98,25 @@ Here are the main features and sections of my website
  - No errors were returned when passing through the official W3C validatorc (HTML)
  - No errors were found when passing through the official (Jigsaw) validator (CSS)
     
-   
+
+<br>
+
+# Credits 
+
+<br>
+
+## Content 
+
+    - The icons in the footer were taken from Font Awesome (https://fontawesome.com)
+
+    - The Code for the Social media section and icons is partly taken from the Love-Run project
+
+<br>
+
+## Media
+
+    - The photos used on the home and sign up page are from https://www.pexels.com 
+
+
+
+
