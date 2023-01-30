@@ -342,6 +342,7 @@ footer {
 	/* picture link section */
 
 	#picture-links {
+		margin-top: 10px;
 		height: 750px;
   		display: flex;
   		flex-direction: column;
@@ -352,6 +353,7 @@ footer {
 		height: 250px;
  		 max-width: 100%;
 	}
+
 
 	#center-picture {
 		width: 100%;
@@ -430,5 +432,8 @@ footer {
 		padding: 1%;
 		margin: 0 auto ;
 	}
+
+
+
 
 }
