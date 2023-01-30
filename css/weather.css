@@ -56,3 +56,28 @@ body {
     margin-right: 20%;
    
 }
+
+
+
+@media screen and (max-width: 950px)  {
+
+    #menu4 {
+		height: 70px;
+		width: 150px;
+		margin: 0 auto;
+		margin-top: 4%;
+    	
+	}
+
+    #weather-text {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 18px;
+    }
+
+    #weather-iframe {
+        margin-top: 20px;
+    }
+
+
+}
