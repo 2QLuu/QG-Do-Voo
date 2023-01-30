@@ -339,10 +339,13 @@ footer {
 		font-size: 16px;
 	}
 
+	/* picture link section */
+
 	#picture-links {
 		height: 750px;
   		display: flex;
   		flex-direction: column;
+		margin-bottom: 0;
 	}
 
 	#picture-links div {
@@ -387,6 +390,45 @@ footer {
 
 	#weather-text {
 		right: 30%;
+	}
+
+
+	/* location section!!!!!!*/
+
+	#information-mantel {
+		margin-top: 5px;
+		display: flex;
+  		flex-direction: column;
+		height: 900px;
+		width: 100%;
+	}
+
+	#information-mantel div {
+		max-width: 100%;
+		height: 100px;
+	}
+
+	#left-side {
+		width: 100%;
+		text-align: center;
+	}
+	#right-side {
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		margin-bottom: 300px;
+	}
+
+	#location {
+		width: 100%;
+   		height: 300px;
+   		display: block;
+  		overflow: hidden;
+	}
+
+	#socials {
+		padding: 1%;
+		margin: 0 auto ;
 	}
 
 }
