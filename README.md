@@ -121,4 +121,6 @@ Here are the main features and sections of my website
 
 
 
+## Bugs 
 
+    - The layout doesnt work on smaller Tablets or when you turn your phonescreen sideways
