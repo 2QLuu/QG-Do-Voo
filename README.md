@@ -89,8 +89,10 @@ Here are the main features and sections of my website
 <br>
 
 ## Testing 
-    - While coding the website i originally had no problems and everything went smooth untill i started to change the size of my window and everything would instantly 
-      fall apart since ive used a lot of float commands so i tested around a lot and tried to do all the layouts without any float commands wich resolved the layout issues.
+    - While coding the website i originally had no problems and everything went smooth untill i started 
+      to change the size of my window and everything would instantly 
+      fall apart since ive used a lot of float commands so i tested around a lot 
+      and tried to do all the layouts without any float commands wich resolved the layout issues.
 
 
 ## Validator Testing
