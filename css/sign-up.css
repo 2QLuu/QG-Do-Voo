@@ -95,15 +95,13 @@ button {
 
 /* mobile dimenstions */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 800px) {
 	
 	body {
 		height: 500px;
 	}
 
-	#sign-up-form {
-		margin-top: 70px;
-	}
+	
 
 	#menu2 {
 		height: 70px;
@@ -114,7 +112,10 @@ button {
 	}
 
 	#sign-up-form{
-		top: 70%;
+		width: 360px;
+		height: 320px;
+		top: 100%;
+	
 
 	} 
 
